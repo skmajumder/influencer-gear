@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-text-primary: rgba(58, 58, 58, 1);
+    --color-white: rgba(255, 255, 255, 1);
+    --color-body-bg: rgb(170, 170, 170);
+    --color-liner-gradient-tint: rgba(192, 204, 218, 0.1);
+    --color-liner-gradient-shade: rgba(192, 204, 218, 0.6);
+    --color-popular-collection-headline: rgb(24, 25, 31);
+    --color-popular-collection-text: rgb(120, 120, 133);
+    --color-price: rgba(0, 0, 0, 0.87);
+    --color-rating-number: rgba(94, 99, 102, 1);
+    --color-rating-star: rgb(251, 130, 0);
+    --color-btn: rgba(224, 44, 109, 0.87);
+    --color-cta-headline: rgba(10, 8, 38, 1);
+    --color-cta-text: rgba(108, 108, 108, 1);
+    --color-copyright-text: rgb(217, 219, 225);
+    --color-footer-bg: rgba(10, 8, 38, 1);
+}
+
+html {
+    /* font-size: 10px; */
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* Percentage of user's browser font-size setting */
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    line-height: 1.2;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
