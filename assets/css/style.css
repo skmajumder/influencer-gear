@@ -5,3 +5,52 @@
     font-family: 'Roboto', sans-serif;
 */
 
+/*  
+1. -- Header
+    # Text Logo
+    # Main Navigation
+    # Navigation Meta
+
+*/
+
+/* Header */
+.header-wrapper {
+    grid-template-columns: 3fr 7fr 1fr;
+    align-items: center;
+    column-gap: 3.4rem;
+    padding: 3rem 0;
+}
+
+.site-url:link,
+.site-url:visited {
+    display: inline-block;
+    color: var(--color-text-primary);
+}
+
+.text-logo {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.nav-list {
+    gap: 3.4rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-list--link:link,
+.nav-list--link:visited {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+}
+
+.nav-meta {
+    gap: 3.4rem;
+    justify-self: end;
+}
+
+.nav-meta i.fa {
+    font-size: 2.4rem;
+    color: var(--color-black);
+}

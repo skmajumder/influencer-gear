@@ -12,11 +12,11 @@
 :root {
     --color-text-primary: rgba(58, 58, 58, 1);
     --color-white: rgba(255, 255, 255, 1);
-    --color-body-bg: rgb(170, 170, 170);
     --color-liner-gradient-tint: rgba(192, 204, 218, 0.1);
     --color-liner-gradient-shade: rgba(192, 204, 218, 0.6);
     --color-popular-collection-headline: rgb(24, 25, 31);
     --color-popular-collection-text: rgb(120, 120, 133);
+    --color-black: rgba(0, 0, 0, 1);
     --color-price: rgba(0, 0, 0, 0.87);
     --color-rating-number: rgba(94, 99, 102, 1);
     --color-rating-star: rgb(251, 130, 0);
@@ -80,6 +80,7 @@ li {
 .container {
     max-width: 105rem;
     margin: 0 auto;
+    padding: 10rem 0;
 }
 
 /* Layout Model */
