@@ -106,3 +106,34 @@ li {
 .text-right {
     text-align: right !important;
 }
+
+/* Heading */
+
+.headline-primary {
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 1.2;
+    margin-bottom: 1.6rem;
+}
+
+/* Button */
+
+.btn,
+.btn:link,
+.btn:visited {
+    background-color: var(--color-btn);
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    line-height: 1.4;
+    transition: background-color 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: rgba(224, 44, 109, 0.80);
+}
+
+.btn i.fa {
+    margin-left: 8px;
+}
