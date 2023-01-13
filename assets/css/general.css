@@ -22,7 +22,7 @@
     --color-rating-star: rgb(251, 130, 0);
     --color-btn: rgba(224, 44, 109, 0.87);
     --color-cta-headline: rgba(10, 8, 38, 1);
-    --color-cta-text: rgba(108, 108, 108, 1);
+    --color-featured-text: rgba(108, 108, 108, 1);
     --color-copyright-text: rgb(217, 219, 225);
     --color-footer-bg: rgba(10, 8, 38, 1);
 }
@@ -39,6 +39,7 @@ html {
 body {
     line-height: 1.2;
     font-weight: 400;
+    color: var(--color-text-primary);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -49,7 +50,58 @@ select {
     font: inherit;
 }
 
+/* Reset */
+
 a:link,
 a:visited {
     text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* ======================
+    Common Style 
+=========================*/
+
+/* Container */
+
+.container-header {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    max-width: 111rem;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 105rem;
+    margin: 0 auto;
+}
+
+/* Layout Model */
+
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+/* Text Align */
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
 }
