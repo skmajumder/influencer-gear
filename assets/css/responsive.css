@@ -201,7 +201,7 @@
     .container-header,
     .container-fluid,
     .container {
-        max-width: 43rem;
+        max-width: 45rem;
     }
 
     .popular-collection--block {
