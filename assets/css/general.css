@@ -10,21 +10,21 @@
 }
 
 :root {
-    --color-text-primary: rgba(58, 58, 58, 1);
-    --color-white: rgba(255, 255, 255, 1);
-    --color-liner-gradient-tint: rgba(192, 204, 218, 0.1);
-    --color-liner-gradient-shade: rgba(192, 204, 218, 0.6);
-    --color-popular-collection-headline: rgb(24, 25, 31);
-    --color-popular-collection-text: rgb(120, 120, 133);
-    --color-black: rgba(0, 0, 0, 1);
-    --color-price: rgba(0, 0, 0, 0.87);
-    --color-rating-number: rgba(94, 99, 102, 1);
-    --color-rating-star: rgb(251, 130, 0);
-    --color-btn: rgba(224, 44, 109, 0.87);
-    --color-cta-headline: rgba(10, 8, 38, 1);
-    --color-featured-text: rgba(108, 108, 108, 1);
-    --color-copyright-text: rgb(217, 219, 225);
-    --color-footer-bg: rgba(10, 8, 38, 1);
+    --color-text-primary: #3a3a3a;
+    --color-white: #ffffff;
+    --color-liner-gradient-tint: #c0ccda1a;
+    --color-liner-gradient-shade: #c0ccda99;
+    --color-popular-collection-headline: #18191f;
+    --color-popular-collection-text: #787885;
+    --color-black: #000000;
+    --color-price: rgba(0, 0, 0, 0.871);
+    --color-rating-number: #5e6366;
+    --color-rating-star: #fb8200;
+    --color-btn: #e02c6dde;
+    --color-cta-headline: #0a0826;
+    --color-featured-text: #6c6c6c;
+    --color-copyright-text: #d9dbe1;
+    --color-footer-bg: #0a0826;
 }
 
 html {
@@ -80,7 +80,6 @@ li {
 .container {
     max-width: 105rem;
     margin: 0 auto;
-    padding: 10rem 0;
 }
 
 /* Layout Model */
@@ -116,12 +115,17 @@ li {
     margin-bottom: 1.6rem;
 }
 
+.heading-tertiary {
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
 /* Button */
 
 .btn,
 .btn:link,
 .btn:visited {
-    background-color: var(--color-btn);
     display: inline-block;
     cursor: pointer;
     border: none;
@@ -129,11 +133,16 @@ li {
     transition: background-color 0.3s;
 }
 
-.btn:hover,
-.btn:active {
-    background-color: rgba(224, 44, 109, 0.80);
-}
-
 .btn i.fa {
     margin-left: 8px;
+}
+
+/* Space */
+
+.margin-b-30 {
+    margin-bottom: 3rem;
+}
+
+.margin-t-50 {
+    margin-top: 5rem;
 }
