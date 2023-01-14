@@ -21,7 +21,7 @@
     --color-rating-number: #5e6366;
     --color-rating-star: #fb8200;
     --color-btn: #e02c6dde;
-    --color-cta-headline: #0a0826;
+    --color-featured-products-headline: #0a0826;
     --color-featured-text: #6c6c6c;
     --color-copyright-text: #d9dbe1;
     --color-footer-bg: #0a0826;
@@ -115,6 +115,13 @@ li {
     margin-bottom: 1.6rem;
 }
 
+.heading-secondary {
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.6rem;
+}
+
 .heading-tertiary {
     font-size: 2.8rem;
     font-weight: 600;
@@ -135,6 +142,45 @@ li {
 
 .btn i.fa {
     margin-left: 8px;
+}
+
+.btn-more:link,
+.btn-more:visited {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--color-btn);
+}
+
+.btn-order:link,
+.btn-order:visited,
+.btn-join:link,
+.btn-join:visited {
+    color: var(--color-white);
+    border-radius: 41px;
+    padding: 1rem 2.4rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    background-color: var(--color-btn);
+}
+
+.btn-order:link,
+.btn-order:visited {
+    border-radius: 41px;
+}
+
+.btn-order:hover,
+.btn-order:active {
+    background-color: rgba(224, 44, 109, 0.80);
+}
+
+.btn-join:link,
+.btn-join:visited {
+    border-radius: 1px;
+}
+
+.btn-join:hover,
+.btn-join:active {
+    background-color: rgba(224, 44, 109, 0.80);
 }
 
 /* Space */

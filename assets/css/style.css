@@ -1,26 +1,35 @@
-/* 
-    font-family: 'Inter', sans-serif;
-    font-family: 'Manrope', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-*/
-
 /*  
-1. -- Header
+    ** Font Family
+        -- font-family: 'Inter', sans-serif;
+        -- font-family: 'Manrope', sans-serif;
+        -- font-family: 'Poppins', sans-serif;
+        -- font-family: 'Roboto', sans-serif;
+
+    ** CSS Style
+    1. -- Header
         # Text Logo
         # Main Navigation
         # Navigation Meta
 
-2. -- Section Hero
+    2. -- Section Hero
         # Hero Text Box
         # Hero Image Box
 
-3. -- Section Featured
+    3. -- Section Featured (As Seen As)
         # As Seen As
 
-4. -- Section Popular Collection
+    4. -- Section Popular Collection
         # Popular Collection Block
         # Popular Collection More
+
+    5. -- Section Featured
+        # Featured Product Image
+        # Featured Product Details
+
+    6. -- Site Footer
+        # Footer Headline
+        # Copyright Text
+        # Social Media
 */
 
 /* Header */
@@ -81,21 +90,6 @@
     font-size: 1.6rem;
     line-height: 1.3;
     margin-bottom: 1.6rem;
-}
-
-.btn-order:link,
-.btn-order:visited {
-    color: var(--color-white);
-    border-radius: 41px;
-    padding: 10px 24px;
-    font-size: 1.6rem;
-    font-weight: 700;
-    background-color: var(--color-btn);
-}
-
-.btn-order:hover,
-.btn-order:active {
-    background-color: rgba(224, 44, 109, 0.80);
 }
 
 .hero--img-box {
@@ -177,8 +171,9 @@
 
 .product-headline {
     font-weight: 500;
-    margin-bottom: .6rem;
     color: var(--color-popular-collection-headline);
+    display: inline-block;
+    margin-bottom: .6rem;
 }
 
 .single-product--price {
@@ -219,9 +214,83 @@
     justify-content: flex-end;
 }
 
-.btn-more:link,
-.btn-more:visited {
+/* Section Featured */
+
+.section-featured {
+    margin-bottom: 10rem;
+}
+
+.featured-products {
+    gap: 9.6rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-products--headline {
+    color: var(--color-featured-products-headline);
+}
+
+.featured-products--description {
+    color: var(--color-featured-text);
     font-size: 1.6rem;
     font-weight: 700;
-    color: var(--color-btn);
+    line-height: 1.4;
+    margin-bottom: 1.6rem;
+}
+
+/* Site Footer */
+
+.site-footer {
+    background-color: var(--color-footer-bg);
+    padding: 5rem 0;
+}
+
+.footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-headline {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--color-white);
+    line-height: 1.6;
+}
+
+.copyright-text {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--color-copyright-text);
+    font-family: 'Manrope', sans-serif;
+}
+
+.footer--social {
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.social-link {
+    position: relative;
+}
+
+.social-link {
+    display: inline-block;
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.148);
+    position: relative;
+}
+
+.social-link i.fa {
+    color: var(--color-white);
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
