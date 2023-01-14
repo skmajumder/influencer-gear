@@ -124,13 +124,12 @@
 /* Section Featured */
 
 .as-seen-as {
-    grid-template-columns: repeat(7, 1fr);
-    column-gap: 6rem;
+    flex-wrap: wrap;
     align-items: center;
-    justify-items: center;
     justify-content: center;
     padding: 2rem 4.5rem;
     position: relative;
+    gap: 6rem;
 }
 
 .as-seen-as::before,
