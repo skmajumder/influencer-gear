@@ -162,6 +162,10 @@
         flex-direction: column-reverse;
         text-align: center;
     }
+
+    .featured-products--img {
+        width: 90%;
+    }
 }
 
 /**************************/
@@ -197,10 +201,14 @@
     .container-header,
     .container-fluid,
     .container {
-        max-width: 50rem;
+        max-width: 43rem;
     }
 
     .popular-collection--block {
         grid-template-columns: 1fr;
+    }
+
+    .text-logo {
+        font-size: 1.9rem;
     }
 }
